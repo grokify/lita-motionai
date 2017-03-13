@@ -1,0 +1,14 @@
+_*
+.env
+Gemfile.lock
+coverage
+pubnub.log
+scripts/_*
+scripts/*.env
+scripts/credentials.json
+scripts/credentials[0-9].json
+scripts/env_test
+scripts/rc-credentials.json
+scripts/oauth2-sinatra/_*
+scripts/oauth2-sinatra/*.env
+*.gem
