@@ -2,6 +2,7 @@
 
 ## Configuration
 
+```ruby
 Lita.configure do |config|
 
   # Motion AI API Info
@@ -9,3 +10,4 @@ Lita.configure do |config|
   config.handlers.motionai.bot_id = 12345          # your Motion AI bot id
 
 end
+```
