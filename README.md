@@ -1,5 +1,7 @@
 # Lita Motion AI Handler
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/08a78318461441abaca6930dd35cd17f)](https://www.codacy.com/app/grokify/lita-motionai?utm_source=github.com&utm_medium=referral&utm_content=grokify/lita-motionai&utm_campaign=badger)
+
 ## Configuration
 
 ```ruby
