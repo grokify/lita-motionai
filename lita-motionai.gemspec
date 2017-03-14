@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.license       = 'MIT'
   spec.metadata      = { 'lita_plugin_type' => 'handler' }
 
-  #spec.files         = `git ls-files`.split($RS)
+  # spec.files         = `git ls-files`.split($RS)
   spec.files         = Dir['lib/**/**/*']
   spec.files        += Dir['[A-Z]*']
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
