@@ -7,7 +7,7 @@ module Lita
       config :api_key, type: String, required: true
       config :bot_id, type: Integer, required: true
 
-      route(/^\s*(.+)\s*/i, :anything, command: false, help: { 'listen' => 'Say anything and the bot will listen' })
+      route(/^\s*(.+)\s*$/i, :anything, command: false, help: { 'listen' => 'Say anything and the bot will listen' })
 
       def client
         return @_client if @_client
